@@ -9,7 +9,7 @@
     "dev": "nuxt",
     "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=master --cleanup",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup --message='deploy but [ci skip]'",
     "test": "jest"
   },
   "dependencies": {
