@@ -15,7 +15,6 @@ jobs:
           key: yarn-{{ checksum "package.json" }}
       # - run: npm run test
       - run: npm run build:gh-pages
-      - run: npm run generate:gh-pages
   deploy:
     docker:
       - image: circleci/node:latest
@@ -26,6 +25,7 @@ jobs:
             - yarn-{{ checksum "package.json" }}
       - run: yarn install
       - run: git config user.name $GH_USER
+      - run: npm run generate:gh-pages
       - run: npm run deploy
 workflows:
   version: 2
