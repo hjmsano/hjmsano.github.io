@@ -6,10 +6,14 @@ export default {
     ** Headers of the page
     */
     head: {
-        title: pkg.name,
+        title: 'Hajime Sano on GitHub',
+        htmlAttrs: {
+            lang: 'en'
+        },
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { name: 'keywords', content: 'GitHub, Portfolio, Hajime Sano'},
             { hid: 'description', name: 'description', content: pkg.description }
         ],
         link: [

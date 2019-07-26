@@ -1,5 +1,6 @@
 {
-  "name": "hjmsano",
+  "name": "hjmsano.github.io",
+  "description": "Here is my portfolio that introduce my own projects and repositories contributed to.",
   "version": "1.0.0",
   "license": "CC-BY-4.0",
   "main": "index.js",
