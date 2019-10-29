@@ -13,6 +13,8 @@
                                     <li class="link"><a href="https://github.com/ingestly/ingestly-endpoint">Ingestion Endpoint</a></li>
                                     <li class="link"><a href="https://github.com/ingestly/ingestly-client-javascript">Client SDK for JS</a></li>
                                     <li class="link"><a href="https://github.com/ingestly/ingestly-chrome-debugger">Debugger for Chrome</a></li>
+                                    <li class="link"><a href="https://github.com/ingestly/ingestly-survey">Survey library (submitting results to Ingestly)</a></li>
+                                    <li class="link"><a href="https://github.com/ingestly/ingestly-o2o">Online to Offline (viceversa) measurement with Ingestly</a></li>
                                 </ul>
                             </article>
                         </div>
@@ -51,6 +53,8 @@
                                     <li class="link"><a href="https://github.com/hjmsano/td-js-sdk-neo">Alternative JS SDK using sendBeacon</a></li>
                                     <li class="link"><a href="https://github.com/hjmsano/td-js-sdk-extension">Extension for TD-JS-SDK</a></li>
                                     <li class="link"><a href="https://github.com/hjmsano/td-chrome-debugger">Debugger for Chrome</a></li>
+                                    <li class="link"><a href="https://github.com/hjmsano/td-survey">Survey library (submitting results to TD)</a></li>
+                                    <li class="link"><a href="https://github.com/hjmsano/td-o2o">Online to Offline (viceversa) measurement with TD</a></li>
                                 </ul>
                             </article>
                         </div>
