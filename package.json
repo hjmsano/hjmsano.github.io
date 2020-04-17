@@ -13,19 +13,18 @@
     "deploy": "push-dir --dir=dist --branch=master --cleanup --message='deploy but [ci skip]'",
     "test": "jest"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@nuxtjs/bulma": "^1.2.4",
+    "@nuxtjs/bulma": "^1.2.7",
     "@nuxtjs/font-awesome": "^1.0.4",
-    "@vue/test-utils": "^1.0.0-beta.27",
+    "@vue/test-utils": "^1.0.0-beta.33",
     "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "^24.1.0",
-    "cross-env": "^5.2.0",
-    "jest": "^24.1.0",
-    "nodemon": "^1.18.9",
-    "nuxt": "^2.8.1",
-    "vue-jest": "^3.0.4",
-    "push-dir": "^0.4.1"
+    "babel-jest": "^24.9.0",
+    "cross-env": "^5.2.1",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4",
+    "nuxt": "^2.12.2",
+    "push-dir": "^0.4.1",
+    "vue-jest": "^3.0.5"
   }
 }
