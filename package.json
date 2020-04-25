@@ -1,0 +1,30 @@
+{
+  "name": "hjmsano.github.io",
+  "description": "Here is my portfolio that introduce my own projects and repositories contributed to.",
+  "version": "1.0.0",
+  "license": "CC-BY-4.0",
+  "main": "index.js",
+  "repository": "https://github.com/hjmsano/hjmsano.github.io.git",
+  "author": "Hajime Sano",
+  "scripts": {
+    "dev": "nuxt",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup --message='deploy but [ci skip]'",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@nuxtjs/bulma": "^1.2.7",
+    "@nuxtjs/font-awesome": "^1.0.4",
+    "@vue/test-utils": "^1.0.0-beta.33",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.9.0",
+    "cross-env": "^5.2.1",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4",
+    "nuxt": "^2.12.2",
+    "push-dir": "^0.4.1",
+    "vue-jest": "^3.0.5"
+  }
+}
