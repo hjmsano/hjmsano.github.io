@@ -15,6 +15,7 @@
                                     <li class="link"><a href="https://github.com/ingestly/ingestly-chrome-debugger">Debugger for Chrome</a></li>
                                     <li class="link"><a href="https://github.com/ingestly/ingestly-survey">Survey library (submitting results to Ingestly)</a></li>
                                     <li class="link"><a href="https://github.com/ingestly/ingestly-o2o">Online to Offline (viceversa) measurement with Ingestly</a></li>
+                                    <li class="link"><a href="https://github.com/ingestly/ingestly-dataflow">Code Snippet for Advanced use of Ingestly</a></li>
                                 </ul>
                             </article>
                         </div>
