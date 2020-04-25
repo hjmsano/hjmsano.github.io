@@ -39,4 +39,4 @@ jobs:
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         publish_branch: master
-        publish_dir: ./
+        publish_dir: ./dist
