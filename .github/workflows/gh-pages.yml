@@ -15,24 +15,23 @@ jobs:
     - name: setup node
       uses: actions/setup-node@v1
       with:
-        node-version: '10.x'
+        node-version: '12.x'
 
     - name: Cache dependencies
       uses: actions/cache@v1
       with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        path: ~/.yarn
+        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn-lock.json') }}
         restore-keys: |
-          ${{ runner.os }}-node-
-
-    - name: install
-      run: npm ci
+          ${{ runner.os }}-build-${{ env.cache-name }}-
+          ${{ runner.os }}-build-
+          ${{ runner.os }}-
 
     - name: build
-      run: npm run build:gh-pages
+      run: yarn run build:gh-pages
 
     - name: generate
-      run: npm run generate:gh-pages
+      run: yarn run generate:gh-pages
 
     - name: deploy
       uses: peaceiris/actions-gh-pages@v3
